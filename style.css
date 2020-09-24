@@ -1,0 +1,166 @@
+/*TERVELE LEHELE KEHTIVAD ANDMED*/
+* {
+  box-sizing: border-box;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+html {
+  background-color: #dcdcdc;
+}
+
+.main {
+  justify-content: center;
+}
+
+/*FLEX-ANDMED*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.flex-child {
+  flex-basis: 23%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 15px;
+  height: 255px;
+}
+
+#Bigger-picture {
+  flex-basis: 48.6%;
+}
+
+/*GRID-ANDMED*/
+#Gridi-tekst {
+  padding-bottom: 215px;
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-template-rows: 230px 230px 230px;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 75%;
+}
+
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid-item-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.grid-item-4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid-item-5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-item-6 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-item-7 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-item-8 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-item-9 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/*MÕLEMALE KEHTIVAD ANDMED*/
+p {
+  background-color: lightgoldenrodyellow;
+  padding: 15px;
+  height: 200px;
+  margin: 0;
+  padding-bottom: 210px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transition: 0.25s;
+  color: rgb(16, 207, 255);
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  background-color: wheat;
+  width: 100%;
+  justify-content: center;
+  padding-left: 0%;
+}
+
+li {
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+nav {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
